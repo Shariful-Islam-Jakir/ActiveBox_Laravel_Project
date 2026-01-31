@@ -1,0 +1,9 @@
+@media (max-width: 991px){
+    .ActiveBox_Menu{
+        display: none;
+    }
+    .ActiveBox_Menu_Icon{
+        display: block;
+        text-align: right;
+    }
+}

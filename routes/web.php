@@ -9,7 +9,7 @@ use App\Http\Controllers\WorksController;
 use Illuminate\Support\Facades\Route;
 
 
-Route::get('/home',[HomeController::class,'home'])->name('home');
+Route::get('/',[HomeController::class,'home'])->name('home');
 Route::get('/features',[FeaturesController::class,'features'])->name('features');
 Route::get('/works',[WorksController::class,'works'])->name('works');
 Route::get('/ourteam',[OurTeamController::class,'ourteam'])->name('ourteam');
